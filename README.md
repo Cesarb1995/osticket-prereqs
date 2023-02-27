@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/TT8okiI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, you must create a virtual machine in Microsoft Azure and create your resource group (this is used to store all of the required resources that your virtual machine will produce). Next, name your virtual machine, choose the region, and select the operating system (Windows 10) that you want to use. You must select a virtual machine size to support the workload of the machine (4 vcpus, 16 GiB memory). This is helpful, so that your virtual machine is not moving slowly and determines the processing power, memory, and storage capacity. Also, make sure that your inbound support rules are selected to determine which ports are accessible from the internet (RDP 3389).
+You must first establish your resource group and virtual machine in Microsoft Azure (this is used to store all of the required resources that your virtual machine will produce). Afterwards when, assigning your virtual machine a name, pick a location, and decide whether to use Windows 10 as your operating system. To handle the computer's task. You must choose a virtual machine size (4 vcpus, 16 GiB memory). This helps to ensure that your virtual computer running quick and establishes its processor, memory, and storage capabilities. Additionally, check your incoming support policies to see which ports are open to internet traffic (RDP 3389).
 </p>
 <br />
 <h2>Install and Enable Internet Information Services (IIS) in Windows with CGI </h2>
